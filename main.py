@@ -10,7 +10,6 @@ def get_book_text(file_path):
 
 def sort_on_count(item):
     return item[1]
-
 if len(sys.argv) != 2:
     print("Usage: python3 main.py <path_to_book>")
     sys.exit(1)
